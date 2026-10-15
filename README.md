@@ -1,35 +1,49 @@
-# Página pessoal — Gustavo Souza
+# Gustavo Souza — Página pessoal
 
-Página estática em português, preparada para o GitHub Pages. Não precisa de instalação, dependências, compilação ou servidor próprio.
+Código-fonte da minha página pessoal, com minha trajetória acadêmica e profissional, interesses de pesquisa, publicações e formas de contato.
 
-## Visualizar no Windows
+**Site:** [gustavo-sencio.github.io](https://gustavo-sencio.github.io/)
 
-Extraia o ZIP e abra `index.html` no navegador. Para editar, abra esta pasta no VS Code. O conteúdo está em `index.html`; o visual está em `style.css`.
+## Sobre mim
 
-## Publicar pelo navegador no GitHub
+Sou Gustavo Henrique Sencio de Souza, graduando em Ciência da Computação na Universidade Estadual de Campinas (Unicamp). Pesquiso cobertura e particionamento por caminhos em grafos coloridos, sob orientação do Prof. Dr. Santiago Valdés Ravelo.
 
-1. Entre na sua conta em https://github.com e crie um repositório **público** chamado `Gustavo-Sencio.github.io`. Ative a criação do README ao criar o repositório para facilitar o envio dos arquivos.
-2. No repositório, clique em **Add file → Upload files**. Envie os arquivos extraídos deste pacote, incluindo `index.html`, `style.css` e `favicon.svg`. Eles precisam estar na raiz do repositório, sem a pasta `pagina-pessoal` envolvendo os arquivos. Confirme em **Commit changes**.
-3. Acesse **Settings → Pages**.
-4. Em **Build and deployment → Source**, selecione **Deploy from a branch**.
-5. Escolha o branch **main** e a pasta **/ (root)**. Clique em **Save**.
-6. Acompanhe a publicação na aba **Actions**. A página será acessível em `https://Gustavo-Sencio.github.io/`. A primeira publicação pode levar alguns minutos.
+Tenho experiência em desenvolvimento web com Python, Flask, SQL, HTML e CSS, a partir da atuação no projeto CEUA MIGO. Atualmente, sou estagiário na área de análise de dados na Aperam S&S, em Campinas, utilizando principalmente Power BI.
 
-O arquivo `.nojekyll` é opcional nesta página; se ele não aparecer no seletor do Windows, isso não impede a publicação destes arquivos HTML/CSS.
+## Conteúdo
 
-Se já existir um repositório com esse nome, revise seu conteúdo antes de enviar estes arquivos para evitar substituir uma página anterior. Um site de projeto também pode usar outro nome de repositório e ficará em `https://Gustavo-Sencio.github.io/NOME-DO-REPOSITORIO/`.
+- Apresentação e formação acadêmica.
+- Pesquisa em grafos, complexidade computacional e algoritmos de aproximação.
+- Publicações e apresentações acadêmicas.
+- Experiência profissional e conhecimentos técnicos.
+- Idiomas e contato.
 
-## Personalizar
+## Tecnologias
 
-- Edite textos, publicações e links em `index.html`.
-- Ajuste cores e tamanhos em `style.css`; as cores principais ficam em `:root`.
-- O link do Lattes e o e-mail foram obtidos do currículo acadêmico fornecido.
-- GitHub: https://github.com/Gustavo-Sencio
-- Repositório recomendado: `Gustavo-Sencio.github.io`.
-- Endereço após a publicação: https://gustavo-sencio.github.io/
-- Não foram incluídos PDFs dos currículos: um deles contém endereço residencial, telefone e outros dados pessoais. Para oferecer um PDF público, prepare uma versão específica para o site.
-- Os dados acadêmicos correspondem aos currículos fornecidos em outubro de 2026. Atualize formação e experiência conforme necessário.
+A página utiliza HTML5, CSS3 e SVG, sem frameworks ou dependências externas. O layout é responsivo e inclui navegação por teclado e suporte à preferência por movimento reduzido.
 
-Não há serviços de terceiros, coleta de dados, formulários, fontes remotas ou JavaScript. O link de contato abre o aplicativo de e-mail do visitante.
+A hospedagem é feita pelo GitHub Pages.
 
-Documentação oficial: https://docs.github.com/pt/pages/quickstart
+## Estrutura
+
+| Arquivo | Descrição |
+| --- | --- |
+| `index.html` | Conteúdo e estrutura da página |
+| `style.css` | Estilos e adaptação a diferentes telas |
+| `favicon.svg` | Ícone do site |
+| `.nojekyll` | Indicação de conteúdo estático para o GitHub Pages |
+
+## Executar localmente
+
+Clone o repositório e abra `index.html` no navegador. Não é necessário instalar dependências ou executar uma etapa de compilação.
+
+```bash
+git clone git@github.com:Gustavo-Sencio/Gustavo-Sencio.github.io.git
+cd Gustavo-Sencio.github.io
+```
+
+## Contato
+
+- [E-mail](mailto:gustavosenciosouza@gmail.com)
+- [Currículo Lattes](http://lattes.cnpq.br/4244177248413920)
+- [GitHub](https://github.com/Gustavo-Sencio)
