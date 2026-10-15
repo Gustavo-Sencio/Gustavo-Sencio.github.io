@@ -7,8 +7,8 @@
   <meta name="description" content="Gustavo Henrique Sencio de Souza, graduando em Ciência da Computação na Unicamp. Pesquisa em grafos, complexidade computacional e algoritmos de aproximação.">
   <meta name="theme-color" content="#f6f5f0">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=20261015-2">
-  <script src="language.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261015-3">
+  <script src="language.js?v=20261015-3" defer></script>
 </head>
 <body>
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
@@ -16,7 +16,7 @@
     <a class="brand" href="#inicio" aria-label="Gustavo Souza, início">gs<span>.</span></a>
     <div class="header-tools">
     <nav aria-label="Navegação principal">
-      <a href="#sobre">Sobre</a><a href="#pesquisa">Pesquisa</a><a href="#publicacoes">Publicações</a><a href="#experiencia">Experiência</a><a href="#contato">Contato ↗</a>
+      <a href="#sobre">Sobre</a><a href="#pesquisa">Pesquisa</a><a href="#publicacoes">Publicações</a><a href="#projetos">Projetos</a><a href="#experiencia">Experiência</a><a href="#contato">Contato ↗</a>
     </nav>
     <div class="language-switch" data-language-switch role="group" aria-label="Idioma da página" hidden>
       <button type="button" data-language="pt" lang="pt-BR" aria-label="Português" aria-pressed="true">PT</button>
@@ -63,11 +63,42 @@
       <div class="section-body publications">
         <article class="publication"><p class="meta">2026 · ARTIGO · ETC / CSBC</p><h3><a href="https://doi.org/10.5753/etc.2026.23557" target="_blank" rel="noopener noreferrer">Cobertura Exata por Caminhos Arco-Íris com Conflitos em Grafos Tricoloridos <span>↗</span></a></h3><p>Gustavo H. S. Souza e Santiago V. Ravelo.</p><p class="detail">Anais do XI Encontro de Teoria da Computação, pp. 70–74. Artigo publicado e apresentado no ETC 2026.</p><a class="text-link" href="https://doi.org/10.5753/etc.2026.23557" target="_blank" rel="noopener noreferrer">Ler artigo ↗</a></article>
         <article class="publication"><p class="meta">2025 · INICIAÇÃO CIENTÍFICA</p><h3>O problema do empacotamento de subgrafos em grafos</h3><p>Gustavo H. S. Souza. Orientação: Santiago Valdés Ravelo.</p><p class="detail">Apresentação em painel no XXXIII Congresso de Iniciação Científica da Unicamp.</p></article>
-        <article class="publication"><p class="meta">2024 & 2025 · PAPE-G</p><h3>MIGO — Um Sistema para Tramitação de Projetos para Comissões de Ética no Uso de Animais</h3><p>Trabalhos em coautoria com João Meidanis.</p><p class="detail">Publicações e apresentações em painel nas edições VII e VIII do Congresso de Projetos de Apoio à Permanência dos Estudantes de Graduação.</p><div class="publication-links"><a class="text-link" href="https://doi.org/10.29327/9786527219545" target="_blank" rel="noopener noreferrer">Anais de 2025 ↗</a><a class="text-link" href="https://doi.org/10.29327/9786527210023" target="_blank" rel="noopener noreferrer">Anais de 2024 ↗</a></div></article>
+        <article class="publication" id="migo-publicacoes"><p class="meta">2024 & 2025 · PAPE-G</p><h3>MIGO — Um Sistema para Tramitação de Projetos para Comissões de Ética no Uso de Animais</h3><p>Trabalhos em coautoria com João Meidanis.</p><p class="detail">Publicações e apresentações em painel nas edições VII e VIII do Congresso de Projetos de Apoio à Permanência dos Estudantes de Graduação.</p><div class="publication-links"><a class="text-link" href="https://doi.org/10.29327/9786527219545" target="_blank" rel="noopener noreferrer">Anais de 2025 ↗</a><a class="text-link" href="https://doi.org/10.29327/9786527210023" target="_blank" rel="noopener noreferrer">Anais de 2024 ↗</a></div></article>
+      </div>
+    </section>
+    <section class="section wrap split" id="projetos" aria-labelledby="projetos-titulo">
+      <div class="section-label"><span>04</span><h2 id="projetos-titulo">Projetos</h2></div>
+      <div class="section-body projects">
+        <p class="projects-intro">Alguns trabalhos que conectam pesquisa, desenvolvimento e análise de dados.</p>
+        <article class="project" aria-labelledby="coautoria-titulo">
+          <p class="meta">ANÁLISE DE REDES · PROJETO ACADÊMICO</p>
+          <h3 id="coautoria-titulo">Rede de coautoria da Unicamp</h3>
+          <p>Análise de uma rede de colaboração científica associada à Unicamp, construída a partir de publicações coletadas na Scopus. O estudo investiga se pesquisadores com alta centralidade de intermediação conectam diferentes comunidades e áreas do conhecimento.</p>
+          <div class="project-metrics"><div><strong>24.867</strong><span>autores no grafo</span></div><div><strong>56.076</strong><span>relações de coautoria</span></div></div>
+          <p class="project-contribution"><strong>Minha atuação</strong><span>Coleta e tratamento de dados, construção do grafo e análise de comunidades, centralidade e conexões entre áreas, com scripts Python e consultas no Neo4j.</span></p>
+          <ul class="tags" aria-label="Tecnologias do projeto"><li>Python</li><li>Neo4j</li><li>Cypher</li><li>Análise de redes</li></ul>
+          <div class="project-links"><a class="text-link" href="https://github.com/Gustavo-Sencio/MC859_Entrega_Final_Gustavo_Souza" target="_blank" rel="noopener noreferrer">Ver código ↗</a><a class="text-link" href="https://github.com/Gustavo-Sencio/MC859_Entrega_Final_Gustavo_Souza/blob/main/Entrega_Final_MC859.pdf" target="_blank" rel="noopener noreferrer">Ler relatório ↗</a><a class="text-link" href="https://github.com/Gustavo-Sencio/MC859_Entrega_Final_Gustavo_Souza/blob/main/Apresenta%C3%A7%C3%A3o_MC859-2.pdf" target="_blank" rel="noopener noreferrer">Ver apresentação ↗</a><a class="text-link" href="https://doi.org/10.17632/9dkybdx27w.1" target="_blank" rel="noopener noreferrer">Explorar dados ↗</a></div>
+        </article>
+        <article class="project" aria-labelledby="migo-titulo">
+          <p class="meta">DESENVOLVIMENTO WEB · UNICAMP</p>
+          <h3 id="migo-titulo">CEUA MIGO</h3>
+          <p>Sistema web para submissão e tramitação de projetos em Comissões de Ética no Uso de Animais. Uma experiência de desenvolvimento de software aplicado a um processo institucional, sob coordenação do Prof. Dr. João Meidanis.</p>
+          <p class="project-contribution"><strong>Minha atuação</strong><span>Desenvolvimento e manutenção da aplicação com Python e Flask, trabalho com SQL e interfaces em HTML e CSS, além de testes automatizados e controle de versões com Git.</span></p>
+          <ul class="tags" aria-label="Tecnologias do projeto"><li>Python</li><li>Flask</li><li>SQL</li><li>HTML &amp; CSS</li></ul>
+          <div class="project-links"><a class="text-link" href="#migo-publicacoes">Ver publicações sobre o MIGO ↗</a></div>
+        </article>
+        <article class="project" aria-labelledby="testes-titulo">
+          <p class="meta">QUALIDADE DE SOFTWARE · TRABALHO EM GRUPO</p>
+          <h3 id="testes-titulo">Testes automatizados e fluxo de controle</h3>
+          <p>Projeto acadêmico da MC646 com testes em Python para cenários de gestão de energia, reservas de voos e detecção de fraudes, além da geração de grafos de fluxo de controle dos programas.</p>
+          <p class="project-contribution"><strong>Escopo do trabalho em grupo</strong><span>Testes com pytest, análise de cobertura e visualização do fluxo de execução com staticfg e Graphviz.</span></p>
+          <ul class="tags" aria-label="Tecnologias do projeto"><li>Python</li><li>pytest</li><li>Graphviz</li><li>Testes de software</li></ul>
+          <div class="project-links"><a class="text-link" href="https://github.com/Gustavo-Sencio/MC646_Grupo9_Atividade4" target="_blank" rel="noopener noreferrer">Ver código ↗</a><a class="text-link" href="https://github.com/Gustavo-Sencio/MC646_Grupo9_Atividade4/tree/main/tests" target="_blank" rel="noopener noreferrer">Explorar testes ↗</a></div>
+        </article>
       </div>
     </section>
     <section class="section wrap split" id="experiencia" aria-labelledby="experiencia-titulo">
-      <div class="section-label"><span>04</span><h2 id="experiencia-titulo">Experiência</h2></div>
+      <div class="section-label"><span>05</span><h2 id="experiencia-titulo">Experiência</h2></div>
       <div class="section-body"><article class="work-entry"><p class="meta">ATUAL · ESTÁGIO · CAMPINAS, SP</p><h3 class="lead">Análise de dados · Aperam S&amp;S</h3><p>Atuo como estagiário na área de análise de dados, utilizando principalmente o Power BI. Essa experiência complementa minha formação em computação com a aplicação de ferramentas de análise e visualização de dados no ambiente profissional.</p><ul class="tags" aria-label="Ferramentas e áreas de atuação"><li>Power BI</li><li>Análise de dados</li><li>Visualização de dados</li></ul></article><article class="work-entry"><p class="meta">MARÇO DE 2024 — FEVEREIRO DE 2026</p><h3 class="lead">Desenvolvimento web · CEUA MIGO</h3><p>Atuei no desenvolvimento e na manutenção de um sistema para tramitação de projetos em Comissões de Ética no Uso de Animais, sob coordenação do Prof. Dr. João Meidanis, na Unicamp.</p><p>Utilizei Python e Flask no desenvolvimento da aplicação, SQL no trabalho com o banco de dados e HTML e CSS nas interfaces web. A experiência também envolveu testes automatizados e controle de versões com Git.</p><ul class="tags" aria-label="Tecnologias"><li>Python</li><li>Flask</li><li>SQL</li><li>HTML & CSS</li><li>Git</li></ul>
       </article><section class="skills" aria-labelledby="skills-title"><h3 id="skills-title">Competências técnicas</h3><p class="skills-intro">Programação, desenvolvimento web e análise de dados.</p><ul class="skills-grid"><li class="skill"><div class="skill-heading"><h4>Python</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li><li class="skill"><div class="skill-heading"><h4>Power BI</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li><li class="skill"><div class="skill-heading"><h4>HTML</h4><span>Básico</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>CSS</h4><span>Básico</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>Git</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li><li class="skill"><div class="skill-heading"><h4>Flask</h4><span>Intermediário</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>SQL</h4><span>Intermediário</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>LaTeX</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li></ul><p class="skills-note">Níveis de conhecimento autoavaliados: básico, intermediário e avançado.</p></section><div class="language"><h3>Idiomas</h3><p><strong>Inglês</strong><span>Intermediário</span></p></div></div>
     </section>

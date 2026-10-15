@@ -15,9 +15,16 @@ Tenho experiência em desenvolvimento web com Python, Flask, SQL, HTML e CSS, a 
 - Apresentação e formação acadêmica.
 - Pesquisa em grafos, complexidade computacional e algoritmos de aproximação.
 - Publicações e apresentações acadêmicas.
+- Projetos selecionados, com escopo, tecnologias e links para explorar os trabalhos.
 - Experiência profissional e conhecimentos técnicos.
 - Idiomas e contato.
 - Alternância entre português e inglês pelos botões PT / EN no topo da página.
+
+## Projetos em destaque
+
+- **[Rede de coautoria da Unicamp](https://github.com/Gustavo-Sencio/MC859_Entrega_Final_Gustavo_Souza):** coleta e tratamento de dados da Scopus, construção do grafo e análises com Python e Neo4j. O repositório inclui relatório, apresentação, dados e consultas Cypher.
+- **CEUA MIGO:** desenvolvimento e manutenção de um sistema web para tramitação de projetos em Comissões de Ética no Uso de Animais, com Python, Flask e SQL. A página reúne links para publicações sobre o trabalho.
+- **[Testes automatizados e fluxo de controle](https://github.com/Gustavo-Sencio/MC646_Grupo9_Atividade4):** trabalho acadêmico em grupo com pytest, análise de cobertura e grafos de fluxo de controle com staticfg e Graphviz.
 
 ## Tecnologias
 

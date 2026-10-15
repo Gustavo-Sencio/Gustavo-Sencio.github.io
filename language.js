@@ -74,6 +74,33 @@
     'Uma boa ideia começa': 'A good idea starts',
     'com uma conversa': 'with a conversation',
     'Campinas, São Paulo · Brasil': 'Campinas, São Paulo · Brazil',
+    "Projetos": "Projects",
+    "Alguns trabalhos que conectam pesquisa, desenvolvimento e análise de dados.": "Selected work connecting research, development, and data analysis.",
+    "ANÁLISE DE REDES · PROJETO ACADÊMICO": "NETWORK ANALYSIS · ACADEMIC PROJECT",
+    "Rede de coautoria da Unicamp": "Unicamp Coauthorship Network",
+    "Análise de uma rede de colaboração científica associada à Unicamp, construída a partir de publicações coletadas na Scopus. O estudo investiga se pesquisadores com alta centralidade de intermediação conectam diferentes comunidades e áreas do conhecimento.": "Analysis of a scientific collaboration network associated with Unicamp, built from publications collected through Scopus. The study investigates whether researchers with high betweenness centrality connect different communities and fields of knowledge.",
+    "autores no grafo": "authors in the graph",
+    "relações de coautoria": "coauthorship connections",
+    "Minha atuação": "My contribution",
+    "Coleta e tratamento de dados, construção do grafo e análise de comunidades, centralidade e conexões entre áreas, com scripts Python e consultas no Neo4j.": "Data collection and processing, graph construction, and analysis of communities, centrality, and connections between research fields, using Python scripts and Neo4j queries.",
+    "Análise de redes": "Network Analysis",
+    "Ver código ↗": "View code ↗",
+    "Ler relatório ↗": "Read report ↗",
+    "Ver apresentação ↗": "View presentation ↗",
+    "Explorar dados ↗": "Explore data ↗",
+    "DESENVOLVIMENTO WEB · UNICAMP": "WEB DEVELOPMENT · UNICAMP",
+    "Sistema web para submissão e tramitação de projetos em Comissões de Ética no Uso de Animais. Uma experiência de desenvolvimento de software aplicado a um processo institucional, sob coordenação do Prof. Dr. João Meidanis.": "A web system for project submission and review by Animal Use Ethics Committees. A software development experience supporting an institutional workflow, under the coordination of Prof. João Meidanis.",
+    "Desenvolvimento e manutenção da aplicação com Python e Flask, trabalho com SQL e interfaces em HTML e CSS, além de testes automatizados e controle de versões com Git.": "Application development and maintenance with Python and Flask, SQL database work, HTML and CSS interfaces, automated testing, and version control with Git.",
+    "Ver publicações sobre o MIGO ↗": "View MIGO publications ↗",
+    "QUALIDADE DE SOFTWARE · TRABALHO EM GRUPO": "SOFTWARE QUALITY · GROUP PROJECT",
+    "Testes automatizados e fluxo de controle": "Automated Testing and Control Flow",
+    "Projeto acadêmico da MC646 com testes em Python para cenários de gestão de energia, reservas de voos e detecção de fraudes, além da geração de grafos de fluxo de controle dos programas.": "An MC646 course project with Python tests for energy management, flight booking, and fraud detection scenarios, alongside control-flow graph generation.",
+    "Escopo do trabalho em grupo": "Group project scope",
+    "Testes com pytest, análise de cobertura e visualização do fluxo de execução com staticfg e Graphviz.": "Testing with pytest, coverage analysis, and execution-flow visualization with staticfg and Graphviz.",
+    "Testes de software": "Software Testing",
+    "Explorar testes ↗": "Explore tests ↗",
+    '24.867': '24,867',
+    '56.076': '56,076',
     'Voltar ao início ↑': 'Back to top ↑'
   };
 
@@ -82,7 +109,8 @@
     'Navegação principal': 'Main navigation',
     'Temas de pesquisa': 'Research topics',
     'Ferramentas e áreas de atuação': 'Tools and areas of work',
-    'Tecnologias': 'Technologies'
+    'Tecnologias': 'Technologies',
+    'Tecnologias do projeto': 'Project technologies'
   };
   const descriptions = {
     pt: 'Gustavo Henrique Sencio de Souza, graduando em Ciência da Computação na Unicamp. Pesquisa em grafos, complexidade computacional e algoritmos de aproximação.',
