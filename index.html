@@ -8,14 +8,21 @@
   <meta name="theme-color" content="#f6f5f0">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+  <script src="language.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
   <header class="header wrap">
     <a class="brand" href="#inicio" aria-label="Gustavo Souza, início">gs<span>.</span></a>
+    <div class="header-tools">
     <nav aria-label="Navegação principal">
       <a href="#sobre">Sobre</a><a href="#pesquisa">Pesquisa</a><a href="#publicacoes">Publicações</a><a href="#experiencia">Experiência</a><a href="#contato">Contato ↗</a>
     </nav>
+    <div class="language-switch" data-language-switch role="group" aria-label="Idioma da página" hidden>
+      <button type="button" data-language="pt" lang="pt-BR" aria-label="Português" aria-pressed="true">PT</button>
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+    </div>
+    </div>
   </header>
   <main id="conteudo">
     <section class="hero wrap" id="inicio" aria-labelledby="titulo">
@@ -39,7 +46,7 @@
           <g fill="#f6f5f0" stroke="#283f34" stroke-width="2"><circle cx="79" cy="240" r="8"/><circle cx="133" cy="117" r="8"/><circle cx="275" cy="82" r="8"/><circle cx="357" cy="192" r="8"/><circle cx="305" cy="329" r="8"/><circle cx="164" cy="359" r="8"/><circle cx="225" cy="211" r="11" fill="#283f34"/></g>
           <g font-family="monospace" font-size="13" fill="#6b7269"><text x="109" y="100">v₁</text><text x="282" y="66">v₂</text><text x="371" y="194">v₃</text><text x="316" y="349">v₄</text><text x="144" y="383">v₅</text><text x="51" y="249">v₆</text></g>
         </svg>
-        <figcaption><span>01 / INTERESSES DE PESQUISA</span> Grafos · Caminhos · Cores</figcaption>
+        <figcaption><span>01 / INTERESSES DE PESQUISA</span> Grafos · Algoritmos de Aproximação · Complexidade Computacional</figcaption>
       </figure>
     </section>
     <section class="section wrap split" id="sobre" aria-labelledby="sobre-titulo">
@@ -64,7 +71,7 @@
       <div class="section-body"><article class="work-entry"><p class="meta">ATUAL · ESTÁGIO · CAMPINAS, SP</p><h3 class="lead">Análise de dados · Aperam S&amp;S</h3><p>Atuo como estagiário na área de análise de dados, utilizando principalmente o Power BI. Essa experiência complementa minha formação em computação com a aplicação de ferramentas de análise e visualização de dados no ambiente profissional.</p><ul class="tags" aria-label="Ferramentas e áreas de atuação"><li>Power BI</li><li>Análise de dados</li><li>Visualização de dados</li></ul></article><article class="work-entry"><p class="meta">MARÇO DE 2024 — FEVEREIRO DE 2026</p><h3 class="lead">Desenvolvimento web · CEUA MIGO</h3><p>Atuei no desenvolvimento e na manutenção de um sistema para tramitação de projetos em Comissões de Ética no Uso de Animais, sob coordenação do Prof. Dr. João Meidanis, na Unicamp.</p><p>Utilizei Python e Flask no desenvolvimento da aplicação, SQL no trabalho com o banco de dados e HTML e CSS nas interfaces web. A experiência também envolveu testes automatizados e controle de versões com Git.</p><ul class="tags" aria-label="Tecnologias"><li>Python</li><li>Flask</li><li>SQL</li><li>HTML & CSS</li><li>Git</li></ul>
       </article><section class="skills" aria-labelledby="skills-title"><h3 id="skills-title">Competências técnicas</h3><p class="skills-intro">Programação, desenvolvimento web e análise de dados.</p><ul class="skills-grid"><li class="skill"><div class="skill-heading"><h4>Python</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li><li class="skill"><div class="skill-heading"><h4>Power BI</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li><li class="skill"><div class="skill-heading"><h4>HTML</h4><span>Básico</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>CSS</h4><span>Básico</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>Git</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li><li class="skill"><div class="skill-heading"><h4>Flask</h4><span>Intermediário</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>SQL</h4><span>Intermediário</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span></span></div></li><li class="skill"><div class="skill-heading"><h4>LaTeX</h4><span>Avançado</span></div><div class="skill-bar" aria-hidden="true"><span class="filled"></span><span class="filled"></span><span class="filled"></span></div></li></ul><p class="skills-note">Níveis de conhecimento autoavaliados: básico, intermediário e avançado.</p></section><div class="language"><h3>Idiomas</h3><p><strong>Inglês</strong><span>Intermediário</span></p></div></div>
     </section>
-    <section class="contact" id="contato" aria-labelledby="contato-titulo"><div class="wrap"><p class="eyebrow">VAMOS CONVERSAR</p><h2 id="contato-titulo">Uma boa ideia começa<br>com uma conversa<span>.</span></h2><a class="email" href="mailto:gustavosenciosouza@gmail.com">gustavosenciosouza@gmail.com ↗</a><p>Campinas, São Paulo · Brasil</p></div></section>
+    <section class="contact" id="contato" aria-labelledby="contato-titulo"><div class="wrap"><p class="eyebrow">VAMOS CONVERSAR!</p><h2 id="contato-titulo">Uma boa ideia começa<br>com uma conversa<span>.</span></h2><a class="email" href="mailto:gustavosenciosouza@gmail.com">gustavosenciosouza@gmail.com ↗</a><p>Campinas, São Paulo · Brasil</p></div></section>
   </main>
   <footer class="wrap footer"><span>Gustavo Souza</span><a href="https://github.com/Gustavo-Sencio" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="http://lattes.cnpq.br/4244177248413920" target="_blank" rel="noopener noreferrer">Currículo Lattes ↗</a><a href="#inicio">Voltar ao início ↑</a></footer>
 </body>

@@ -17,12 +17,19 @@ Tenho experiência em desenvolvimento web com Python, Flask, SQL, HTML e CSS, a 
 - Publicações e apresentações acadêmicas.
 - Experiência profissional e conhecimentos técnicos.
 - Idiomas e contato.
+- Alternância entre português e inglês pelos botões PT / EN no topo da página.
 
 ## Tecnologias
 
-A página utiliza HTML5, CSS3 e SVG, sem frameworks ou dependências externas. O layout é responsivo e inclui navegação por teclado e suporte à preferência por movimento reduzido.
+A página utiliza HTML5, CSS3, JavaScript e SVG, sem frameworks ou dependências externas. O layout é responsivo e inclui navegação por teclado e suporte à preferência por movimento reduzido.
 
 A hospedagem é feita pelo GitHub Pages.
+
+## Idioma da página
+
+A versão inicial é em português. Os botões **PT / EN** no topo alternam o conteúdo sem recarregar a página. A escolha é lembrada neste navegador quando o armazenamento local está disponível. Se JavaScript estiver desativado, o conteúdo em português continua acessível.
+
+Para atualizar textos, edite a versão em português em `index.html` e a tradução correspondente em `language.js`. As chaves do dicionário devem corresponder exatamente ao texto em português. Os links e as barras de competências são preservados na troca de idioma. Títulos de trabalhos aparecem traduzidos para facilitar a leitura; os links continuam apontando para as publicações originais.
 
 ## Competências
 
@@ -47,6 +54,7 @@ Os níveis exibidos no site são autoavaliações, representadas em uma escala d
 | --- | --- |
 | `index.html` | Conteúdo e estrutura da página |
 | `style.css` | Estilos e adaptação a diferentes telas |
+| `language.js` | Traduções, alternância de idioma e preferência local |
 | `favicon.svg` | Ícone do site |
 | `.nojekyll` | Indicação de conteúdo estático para o GitHub Pages |
 
