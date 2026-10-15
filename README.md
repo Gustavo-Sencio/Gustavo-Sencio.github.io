@@ -24,6 +24,23 @@ A página utiliza HTML5, CSS3 e SVG, sem frameworks ou dependências externas. O
 
 A hospedagem é feita pelo GitHub Pages.
 
+## Competências
+
+Os níveis exibidos no site são autoavaliações, representadas em uma escala de três etapas.
+
+| Competência | Nível |
+| --- | --- |
+| Python | Avançado |
+| Power BI | Avançado |
+| HTML | Básico |
+| CSS | Básico |
+| Git | Avançado |
+| Flask | Intermediário |
+| SQL | Intermediário |
+| LaTeX | Avançado |
+
+**Idiomas:** inglês intermediário.
+
 ## Estrutura
 
 | Arquivo | Descrição |
